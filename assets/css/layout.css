@@ -171,18 +171,19 @@ footer {
 aside{
   width:100%;
   justify-content: center;
-  margin-top: 5rem;
+  margin-top:5rem;
+
 }
   .aside__container {
-    height: 10rem;
-    width: 10rem;
+    height: 9rem;
+    width: 9rem;
     margin-left: 1rem;
     margin-top: 2rem;
   }
 
   iframe {
-    height: 10.2rem;
-    width: 10.2rem;
+    height: 9.5rem;
+    width: 9.5rem;
   }
   main{
     width:100%;
@@ -325,7 +326,8 @@ aside{
 aside{
   width:100%;
   justify-content: center;
-  margin-top: 3rem;
+  margin-top: 4rem;
+
 }
   .aside__container {
     height: 10rem;
@@ -346,7 +348,6 @@ aside{
   }
   .main__container {
     flex-basis: 27%;
-  
     width: 380px;
     margin-top: 1rem;
     margin-bottom: 2rem;
@@ -370,33 +371,31 @@ aside{
   }
   footer {
     display: flex;
-    flex-direction: column;
-    height: 20rem;
+    flex-direction: row;
+    height: 7rem;
     position:fixed;
     bottom:0;
     width:100%;
+
   }
   .footer__h3 {
     display: none;
   }
   .footer__cotainer {
-    flex-direction: column;
-    height: 5rem;
+    flex-direction: row;
+    row-gap: 5rem;
+    height: 3rem;
     justify-content: space-evenly;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     padding-top:5rem;
   }
   .social-icon {
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding-right: 2rem;
   }
   #subscribebox{
-    justify-self: center;
-    flex-direction: column;
-    width: 100%;
-    text-align:left;
-    margin-top:10rem;
+    display:none;
   }
 }
 
