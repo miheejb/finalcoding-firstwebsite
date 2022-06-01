@@ -326,7 +326,7 @@ aside{
 aside{
   width:100%;
   justify-content: center;
-  margin-top: 4rem;
+  margin-top: 2rem;
 
 }
   .aside__container {
@@ -416,7 +416,8 @@ aside{
     flex-direction: row;
     justify-content: center;
     gap: 5rem;
-    margin-top: 10rem;
+    margin-top: 12rem;
+  
   }
 
   main {
@@ -426,7 +427,7 @@ aside{
     grid-row-end: 7;
     flex-direction: column;
     justify-items: left;
-    margin-top: 5rem;
+    margin-top: 8rem;
     height: 1500px;
   }
 
